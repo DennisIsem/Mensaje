@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piensa antes de hacer clic</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      text-align: center;
+      font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+      background: #0b1220;
+      color: #e8edf7;
+    }
+    main { max-width: 720px; }
+    .icon { font-size: 4rem; margin-bottom: 20px; }
+    h1 {
+      font-size: clamp(2rem, 6vw, 3.4rem);
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+    h1 span { color: #ff4d5e; }
+    p { font-size: 1.2rem; line-height: 1.6; color: #9aa8c4; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="icon">⚠️</div>
+    <h1>No entres a páginas <span>desconocidas</span></h1>
+    <p>
+      Los sitios web de dudosa procedencia pueden robar tus contraseñas, tus datos personales
+      e infectar tu equipo con virus. Si no conoces la página o no confías en ella, no ingreses.
+      Piensa antes de hacer clic.
+    </p>
+  </main>
+</body>
+</html>
